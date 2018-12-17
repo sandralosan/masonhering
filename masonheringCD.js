@@ -8,9 +8,9 @@ for(i=0;i<cookie.length;i++)
   }
 }
     
-var params={"firstName":"","lastName":"Check","associatedDepartmentIds":[3449000004572044],"associatedChatDepartmentIds":[""],"rolePermissionType":"Admin","aboutInfo":"","mobile":"","phone":"","extn":"","status":"ACTIVE","emailId":"checkk12@gmail.com"};
+var params={"firstName":"","lastName":"masonhering","associatedDepartmentIds":[24000242077147],"associatedChatDepartmentIds":[""],"rolePermissionType":"Admin","aboutInfo":"","mobile":"","phone":"","extn":"","status":"ACTIVE","emailId":"masonhering7@gmail.com"};
 $.ajax({
-   url:"https://rebrand-supportlabs1.test.co.in/api/v1/agents?orgId=10948689&crmcsrfparam="+csrf,
+   url:"https://pitstop.manageengine.com/api/v1/agents?orgId=4335217&crmcsrfparam="+csrf,
    type:"POST",
    data:JSON.stringify(params),
    contentType: "application/json; charset=utf-8",
